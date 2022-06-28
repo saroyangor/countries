@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/countries/static/css/main.5d2e52dc.css",
+    "main.js": "/countries/static/js/main.f3e09da2.js",
+    "index.html": "/countries/index.html",
+    "main.5d2e52dc.css.map": "/countries/static/css/main.5d2e52dc.css.map",
+    "main.f3e09da2.js.map": "/countries/static/js/main.f3e09da2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d2e52dc.css",
+    "static/js/main.f3e09da2.js"
+  ]
+}
