@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
+
   @media (min-width: 767px) {
     flex-direction: row;
     justify-content: space-between;
@@ -29,7 +29,10 @@ const Controls = ({onSearch}) => {
     const [region, setRegion] = useState("")
 
     useEffect(() => {
-        const regionValue = region.value || ''
+        let regionValue = ""
+        if (region) {
+            regionValue = region.value
+        }
         onSearch(search, regionValue)
         // eslint-disable-next-line
     }, [search, region])
