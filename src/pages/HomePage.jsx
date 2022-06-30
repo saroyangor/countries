@@ -64,7 +64,7 @@ const HomePage = ({countries, setCountries}) => {
                                 }
                             ]
                         }
-                        return <Card key={c.name} onClick={() => navigate(`/country/${c.name}`)} {...countryInfo} />
+                        return <Card key={c.name} onClick={() => navigate(`../country/${c.name}`)} {...countryInfo} />
                     })
                 }
             </List>
